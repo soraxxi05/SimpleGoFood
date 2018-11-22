@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitOrder">
+
+    <ImageView
+        android:id="@+id/imgGoFoodDetail"
+        android:layout_width="134dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/menu_gofood" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ro_name_pemesan"
+        android:text="Nama Pemesan Disini"
+        android:textSize="@dimen/tSize"
+        android:textColor="#43A047"
+        android:layout_below="@id/imgGoFoodDetail"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTopEdt4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ro_alamat_pemesan"
+        android:text="Alamat Pemesan Disini"
+        android:textSize="@dimen/tSize"
+        android:textColor="#43A047"
+        android:layout_below="@id/ro_name_pemesan"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margiTopEdt2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ro_item_pemesan"
+        android:text="Item Pemesan Disini"
+        android:textSize="@dimen/tSize"
+        android:textColor="#43A047"
+        android:layout_below="@id/ro_alamat_pemesan"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margiTopEdt2"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel"
+        android:text="cancel"
+        android:background="#43A047"
+        android:textColor="#fff"
+        android:layout_below="@id/ro_item_pemesan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"/>
+
+</RelativeLayout>

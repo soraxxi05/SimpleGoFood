@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoHitam"
+        android:layout_width="302dp"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/logo_hitam" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopEdt3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logoHitam"
+        android:id="@+id/ll1">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignTop="@+id/ll1"
+            android:id="@+id/imgGoMart"
+            android:layout_marginRight="@dimen/margin"
+            android:src="@drawable/menu_gomart" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgGoRide"
+            android:src="@drawable/menu_goride"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="@dimen/margin_top"
+        android:id="@+id/ll2">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignTop="@+id/ll1"
+            android:id="@+id/imgGoFood"
+            android:layout_marginRight="@dimen/margin"
+            android:src="@drawable/menu_gofood" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgGoSend"
+            android:src="@drawable/menu_gosend"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

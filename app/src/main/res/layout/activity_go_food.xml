@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoFood">
+
+    <ImageView
+        android:id="@+id/imgGoFoodDetail"
+        android:layout_width="119dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/menu_gofood" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/imgGoFoodDetail"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTopEdt"
+            android:hint="Nama Pemesan"
+            android:textSize="@dimen/tSize"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_alamat"
+            android:layout_gravity="center_horizontal"
+            android:hint="Alamat Pemesan"
+            android:layout_marginTop="@dimen/margiTopEdt2"
+            android:textSize="@dimen/tSize"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_pesanan"
+            android:layout_gravity="center_horizontal"
+            android:hint="Pesanan"
+            android:layout_marginTop="@dimen/margiTopEdt2"
+            android:textSize="@dimen/tSize"/>
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:background="#43A047"
+            android:id="@+id/btn_submit"
+            android:layout_marginTop="@dimen/margin_top"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="marginTopEdt">15dp</dimen>
+    <dimen name="tSize">17dp</dimen>
+    <dimen name="margiTopEdt2">5dp</dimen>
+    <dimen name="marginTopEdt3">30dp</dimen>
+    <dimen name="marginTopEdt4">20dp</dimen>
+</resources>
